@@ -1,0 +1,7 @@
+<app-side-bar>
+    <div class="container">
+        <h1>Bienvenido [name],</h1>
+        <p *ngFor="let producto of productos$ | async; let i = index;"> {{producto.nombre}} </p>
+    </div>
+</app-side-bar>
+
