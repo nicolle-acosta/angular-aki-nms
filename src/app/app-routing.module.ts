@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path:'reporte-ventas',
     loadChildren:() => import(`./modules/sales/sales.module`).then(m => m.SalesModule)
+  },
+  {
+    path:'poc',
+    loadChildren:() => import(`./modules/po-c/po-c.module`).then(m => m.PoCModule)
   }
 ];
 

@@ -1,6 +1,8 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 body{
+    font-family: 'Sora', sans-serif!important;
     ul{
         margin: 0;
         padding: 0;
@@ -8,6 +10,9 @@ body{
             list-style: none;
         }
 
+    }
+    h2{
+        margin: 0;
     }
     
 }
@@ -62,4 +67,4 @@ body{
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; }
